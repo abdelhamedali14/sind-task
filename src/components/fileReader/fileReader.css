@@ -1,0 +1,36 @@
+.fileReader-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.fileReader-wrapper.many {
+  flex-direction: column !important;
+}
+.fileReader-wrapper .upload-file {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: rgb(236, 233, 233);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fileReader-wrapper .upload-file p {
+  color: gray;
+  padding-top: 10px;
+}
+.fileReader-wrapper #uploader {
+  display: none;
+}
+.fileReader-wrapper .image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.fileReader-wrapper .image-wrapper img {
+  width: 100px;
+  height: 80px;
+}/*# sourceMappingURL=fileReader.css.map */

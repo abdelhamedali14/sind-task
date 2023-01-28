@@ -1,0 +1,47 @@
+.side-wrapper {
+  background-color: black;
+  /* position: fixed;
+  z-index: 1000; */
+  width: 90%;
+  max-width: 230px;
+  /* height: 100%; */
+  color: white;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-header {
+  margin-bottom: 10px;
+}
+.company-name {
+  display: flex;
+  align-items: center;
+}
+.company-name h6 {
+  display: inline;
+  font-size: 16px;
+  padding: 0px 5px;
+}
+.nav-header p {
+  color: gray;
+}
+.icon-size {
+  font-size: 20px;
+}
+.nav-items ul li  {
+  list-style: none;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  margin: 3px 0px;
+ 
+}
+.nav-item p {
+  display: inline;
+  padding: 0px 10px;
+}
+
